@@ -19,19 +19,7 @@ export default function Home() {
   return (
     <main className="min-h-dvh flex flex-col bg-white">
       {/* Header */}
-      <Header
-        links={[
-          { label: "Privacy", href: "/privacy-policy" },
-          { label: "Unsubscribe", href: "/unsubscribe" },
-          {
-            label: "Instagram",
-            href: "https://www.instagram.com/duckcrossapp",
-            target: "_blank",
-            rel: "noopener noreferrer",
-          },
-        ]}
-        cta={{ label: "Get updates", href: "#subscribe" }}
-      />
+      <Header cta={{ label: "Get updates", href: "#subscribe" }} />
 
       {/* Hero */}
       <Hero
