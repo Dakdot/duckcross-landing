@@ -29,7 +29,7 @@ export const SubscriptionFlow = () => {
         setCompleted: () => setStep("completed"),
       }}
     >
-      <div className="bg-zinc-100/60 shadow backdrop-blur-md p-2 rounded-md border-1 border-white/30 w-full md:w-[500px] xl:w-[500px]">
+      <div className="bg-zinc-100/60 shadow backdrop-blur-md p-2 rounded-md border-1 border-white/30 w-full ">
         {step == "input" ? (
           <EmailForm />
         ) : (

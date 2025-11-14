@@ -90,7 +90,9 @@ export default function Hero({
 
         <div className="mt-8 flex items-center justify-center">
           <Link href={ctaHref} target={ctaTarget} aria-label={ctaLabel}>
-            <Button className="h-11 px-6 text-base">{ctaLabel}</Button>
+            <Button className="h-11 px-6 text-base bg-[#fdb415] hover:bg-[#fdb415]/60 text-white hover:scale-105">
+              {ctaLabel}
+            </Button>
           </Link>
         </div>
 

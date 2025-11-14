@@ -32,8 +32,8 @@ export default function Home() {
             real‑time alerts to community-powered insights.
           </>
         }
-        ctaLabel="Notify me"
-        ctaHref="#subscribe"
+        ctaLabel="Try the app"
+        ctaHref="https://app.duckcross.com"
         belowCta={
           <p className="text-xs text-zinc-600">
             No spam. Occasional updates about launch and progress.
